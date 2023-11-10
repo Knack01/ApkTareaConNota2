@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fondoani"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Veterinaria">
+
+    <Button
+        android:id="@+id/btn_insertar"
+        android:layout_width="169dp"
+        android:layout_height="289dp"
+        android:layout_weight="1"
+        android:background="@drawable/agregar"
+        android:gravity="center" />
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:background="#EAC4C4"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/volver2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:onClick="volver"
+        android:text="Volver" />
+
+</LinearLayout>

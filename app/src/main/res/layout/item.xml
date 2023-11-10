@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="50dp">
+
+    <LinearLayout
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nomMas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre Mascota: "
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/tipoMas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipo de Mascota: "
+            android:textSize="24sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/raza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Raza: "
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/nomDue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre Dueño: "
+            android:textSize="24sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/motivo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Motivo de Consulta: "
+            android:textSize="24sp"/>
+        <TextView
+            android:id="@+id/num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Número de Contacto: "
+            android:textSize="24sp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="381dp"
+        android:layout_height="110dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/btn_editar"
+            android:layout_width="wrap_content"
+            android:layout_height="89dp"
+            android:layout_weight="1"
+            android:background="@drawable/editar" />
+
+        <Button
+            android:id="@+id/btn_eliminar"
+            android:layout_width="wrap_content"
+            android:layout_height="89dp"
+            android:layout_weight="1"
+            android:background="@drawable/eliminar" />
+    </LinearLayout>
+
+</LinearLayout>

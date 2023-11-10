@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/nomMas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre Mascota: "
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/tipoMas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo Mascota: "
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/raza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Raza: "
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/nomDue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre Dueño: "
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/motivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Motivo Consulta: "
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Número de Contacto: "
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/btn_salir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salir" />
+
+</LinearLayout>
