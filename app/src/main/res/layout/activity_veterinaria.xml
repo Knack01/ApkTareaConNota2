@@ -9,12 +9,20 @@
     android:gravity="center"
     tools:context=".Veterinaria">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sección para agregar pacientes: "
+        android:textSize="24sp"
+        android:background="@color/white"
+        android:layout_marginTop="30dp"/>
+
     <Button
         android:id="@+id/btn_insertar"
         android:layout_width="169dp"
         android:layout_height="289dp"
         android:layout_weight="1"
-        android:background="@drawable/agregar"
+        android:background="@drawable/baseline_dns_24"
         android:gravity="center" />
     <ListView
         android:id="@+id/lista"
